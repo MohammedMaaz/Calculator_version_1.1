@@ -138,7 +138,7 @@ public:
     }
 
 
-    void setHoverColor(short r, short g, short b, short a=255, float time = 0)
+    void setHoverColor(short r, short g, short b, short a=255, float time = 7.5)
     {
         hoverClr = sf::Color(r,g,b,a);
         hoverClrTrigger = true;
@@ -406,6 +406,9 @@ private:
 
     sf::RectangleShape Box;
 };
+
+Button b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, bDot, bPlus, bMinus, bDivide, bMultiply, bPercent, bSq, bCube,bNpow, bFact,bLeftB,bRightB,bReciprocal,bSin,bCos, bTan, bASin, bACos, bATan,
+    bSqrt, bCbRt,bLog, bLn, bExp, b10x, bPie,bEquals,bBackspace,bClear; //global objects
 
 
 std::vector<Button*> buttonArray ={&b0,&b1,&b2,&b3,&b4,&b5,&b6,&b7,&b8,&b9,&bDot,&bPlus,&bMinus,&bDivide,&bMultiply,&bPercent,&bSq, &bCube,&bNpow,&bFact,&bLeftB,&bRightB,&bReciprocal,&bSin,&bCos, &bTan, &bASin, &bACos, &bATan,

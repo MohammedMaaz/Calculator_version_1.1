@@ -1,1 +1,0 @@
-# Calculator_version_1.1

@@ -16,6 +16,12 @@ void screen1()
     sf::RenderWindow win(sf::VideoMode(710,400),"Scientific Calculator");
     win.setVerticalSyncEnabled(true);
 
+    sf::Font font;
+    loadFile("fonts/DroidSansMono.ttf",font);
+
+    sf::SoundBuffer buffer;
+    loadFile("audios/Click2-Sebastian-759472264.wav",buffer);
+
     displayRect box(win,font); //display screen of the calculators
 
     std::vector<sf::Keyboard::Key> keys = {sf::Keyboard::Num0,sf::Keyboard::Num1,sf::Keyboard::Num2,sf::Keyboard::Num3,sf::Keyboard::Num4,sf::Keyboard::Num5,sf::Keyboard::Num6,sf::Keyboard::Num7,sf::Keyboard::Num8,sf::Keyboard::Num9,sf::Keyboard::Period,sf::Keyboard::Add,sf::Keyboard::Dash,

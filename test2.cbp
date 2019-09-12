@@ -2,23 +2,23 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="scientific_calculator_1.1" />
+		<Option title="test2" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/scientific_calculator_1.1" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/calculator" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
-				<Option type="1" />
+				<Option type="0" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/scientific_calculator_1.1" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/calculator" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
-				<Option type="1" />
+				<Option type="0" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
@@ -30,7 +30,21 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/sfml/include" />
 		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics" />
+			<Add library="sfml-audio" />
+			<Add library="sfml-network" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/sfml/lib" />
+		</Linker>
+		<Unit filename="main.cpp" />
+		<Unit filename="test.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />
