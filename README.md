@@ -8,3 +8,7 @@ A GUI based scientific calculator application writtern in C++ using SFML library
 4) Recursion based custom implemented algorithm for expression evaluation inspired by BODMAS rule
 5) Both keyboard and mouse support
 6) High precesion numbers
+
+# Demo
+
+![Working of Scientific Calculator](https://github.com/MohammedMaaz/Calculator_version_1.1/blob/master/demo.gif)
