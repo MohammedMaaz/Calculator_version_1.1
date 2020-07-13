@@ -540,3 +540,31 @@
 	<iomanip>
 	<cmath>
 
+1568332633 source:c:\new volume d\codes and programs\c++\calculator_version_1.1\main.cpp
+	"windows/standard.h"
+
+1568329258 c:\new volume d\codes and programs\c++\calculator_version_1.1\windows\standard.h
+	"../headers/styling.h"
+	"../headers/buffer.h"
+	"../headers/evaluate.h"
+	<vector>
+	<iostream>
+
+1568330305 c:\new volume d\codes and programs\c++\calculator_version_1.1\headers\styling.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<vector>
+	<string>
+	<iostream>
+
+1568323053 c:\new volume d\codes and programs\c++\calculator_version_1.1\headers\buffer.h
+	<SFML/Graphics.hpp>
+	<fstream>
+
+1568323053 c:\new volume d\codes and programs\c++\calculator_version_1.1\headers\evaluate.h
+	<sstream>
+	<vector>
+	<iostream>
+	<iomanip>
+	<cmath>
+
